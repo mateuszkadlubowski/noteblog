@@ -1,0 +1,80 @@
+.header {
+  padding: 20px 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo img {
+    min-width: 60px;
+  }
+}
+
+.navbar__list {
+  display: flex;
+  margin-bottom: 0;
+
+  li {
+    list-style: none;
+    margin: 0 25px;
+
+    a {
+      text-decoration: none;
+      color: $c-link;
+      font-weight: $w-semibold;
+      font-size: 1rem;
+      transition: $transition;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+
+        background-color: $c-dark-grey;
+        transition: width $transition;
+      }
+
+      &:hover {
+
+
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.hero{
+  height: 750px;
+ // background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url('../img/hero.png') top/cover no-repeat;
+ background: linear-gradient(70deg, $c-dark-grey 50%, $c-light-yellow 50%);
+  position: relative;
+  overflow: hidden;
+
+
+}
+.hero{
+  .img{
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+  }
+  .img1{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+  }
+}

@@ -1,0 +1,23 @@
+.admin-bar{
+  .header{
+    top: 32px;
+  }
+}
+
+body {
+  font-family: $f-family-text;
+  overflow-x: hidden;
+  background-color: #fcfcfc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+

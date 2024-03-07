@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
-//@import "wp-core";
+@import "reset";
 @import "variables";
+@import "components/base";
+@import "components/header";
+//@import "wp-core";
+
 
 //@import "media";
 
-@import "normalize";
 @import "style";
+

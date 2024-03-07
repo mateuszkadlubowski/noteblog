@@ -24,4 +24,5 @@ function nb_theme__assets()
 
 add_action('wp_enqueue_scripts', 'nb_theme__assets');
 
+
 add_filter('use_block_editor_for_post', '__return_false');

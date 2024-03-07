@@ -6,20 +6,24 @@ $c-yellow: #ffd100;
 $c-dark-grey: #333533;
 $c-dark: #202020;
 
+$c-text: $c-dark;
+$c-link: $c-dark;
+$c-link-hover: $c-yellow;
 
 /* FONTS FAMILY */
 
 $f-family-text: 'Open Sans', sans-serif;
 
 
+
 /* Font Sizes */
 //$w-light: 300;
 //$w-medium: 500;
-//$w-semibold: 600;
+$w-semibold: 600;
 //$w-bold: 700;
 //$w-extrabold: 800;
 
-//$transition: 0.4s ease-in-out;
+$transition: 0.3s ease-out;
 //
 
 
